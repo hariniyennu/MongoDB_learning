@@ -3,7 +3,7 @@
 - A Document is the basic unit of data in MongoDB, similar to a row in a SQL database.
 - Documents are stored in BSON (Binary JSON) format, which is efficient for both storage and data retrieval.
 - They support different types of data like strings, numbers, arrays, and even other documents (nested).
-```json
+```js
 {
   "_id": ObjectId("507f191e810c19729de860ea"),   // Unique ID for the document
   "name": "Harini",
@@ -18,7 +18,7 @@
 - Unlike SQL tables, collections do not enforce schemas, which means documents in the same collection can have different structures.
 Example:
 If you create a collection named users, it can contain:
-```json
+```js
 // Document 1
 { 
   "name": "Harini", 
